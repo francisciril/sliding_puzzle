@@ -1,0 +1,14 @@
+.container {width: 366px;margin:30px auto;}
+.shuffle {margin: 20px auto;cursor:pointer;width: 100%;background: rgb(2, 238, 81); color:#000;padding: 10px;font-size: 16px;text-transform: uppercase;border:0;}
+.grid {display: table; border: 2px solid #078cff; padding: 2px;}
+.row-view {display: table-row;}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {display: table-cell;width: 120px;height: 120px;border: 1px solid white;background: url(../image/baby.jpg);cursor: pointer;}    
+.box1 {background-position: left top;}
+.box2 {background-position: center top;}
+.box3 {background-position: right top;}
+.box4 {background-position: left center;}
+.box5 {background-position: center center;}
+.box6 {background-position: right center;}
+.box7 {background-position: left bottom;}
+.box8 {background-position: center bottom;}
+.box9 {background: rgb(3, 138, 248); cursor: default;}
